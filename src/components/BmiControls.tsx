@@ -7,7 +7,7 @@ const BmiControls: React.FC<{ onCalculate: () => void; onReset: () => void }> =
   (props) => {
     return (
       <IonRow>
-        <IonCol  sizeMd="3" className="ion-text-left">
+        <IonCol offsetMd="3" sizeMd="3" className="ion-text-left">
           <IonButton onClick={props.onCalculate}>
             <IonIcon slot="start" icon={calculatorOutline}></IonIcon>
             Calculate
